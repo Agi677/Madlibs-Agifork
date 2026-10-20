@@ -18,6 +18,6 @@ Agilan:
 - various prompts to keep the user on track
 - a final print statement to display the completed story
 
-
+Everyone keep track:
 - the use of camelCase when appropriate
-- - comments describing the algorithms
+- comments describing the algorithms
