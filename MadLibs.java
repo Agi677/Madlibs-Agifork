@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-// Defines the public class madlibs 
 public class MadLibs {
 
     public static String getWord(Scanner scanner, String wordType) {
@@ -18,9 +17,9 @@ public class MadLibs {
         String template = "I went to the animal ; the  and the  beasts were there.";
 
         String madlibstory = template.substring(0, 21) + noun1 
-                + template.substring(21, 28) + pluralNoun1 
-                + template.substring(28, 37) + number1 
-                + template.substring(37);
+                + template.substring(21, 27) + pluralNoun1 
+                + template.substring(27, 36) + number1 
+                + template.substring(36);
 
         System.out.println(madlibstory);
 
