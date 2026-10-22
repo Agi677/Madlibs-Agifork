@@ -23,6 +23,29 @@ public class MadLibs {
 
         System.out.println(madlibstory);
 
+        // Second sentence of madlib story
+        String madlibstory2 = "The <adjective> <noun> went to the mall for <pluralNoun>.";
+        // User is prompted to enter an adjective that will be stored under the adjective variable
+        System.out.print("Enter an adjective: ");
+        String adjective = scanner.nextLine();
+        // User is prompted to enter a noun that will be stored under the noun2 variable
+        System.out.print("Enter a noun: ");
+        String noun2 = scanner.nextLine();
+        // User is prompted to enter a plural noun that will be stored under the pluralNoun2 variable
+        System.out.print("Enter a plural noun: ");
+        String pluralNoun2 = scanner.nextLine();
+
+        // The entire story is put together using the substring method, the variables and the original madlibstory2
+        madlibstory2 = madlibstory2.substring(0, 4) + adjective + madlibstory2.substring(15, 16) + noun2 + madlibstory2.substring(22, 44) + pluralNoun2 + madlibstory2.substring(56);
+        // Line 2 of madlibs is printed out
+        System.out.println(madlibstory2);
+        
         scanner.close();
     }
 }
+        
+
+
+
+
+
