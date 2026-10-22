@@ -26,8 +26,8 @@ Agilan:
 - fist algorithm to parse for the parts of speech to replace
 - first algorithm to parse for sections of the Mad Lib to include
 - various prompts to keep the user on track
-- a final print statement to display the completed story
 
 Everyone keep track:
 - the use of camelCase when appropriate
 - comments describing the algorithms
+- a final print statement to display the completed story
