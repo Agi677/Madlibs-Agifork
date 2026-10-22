@@ -47,12 +47,12 @@ public class MadLibs {
         String adverb3 = getWord(scanner, "adverb");
 
         // Template sentence 3
-        String template = "Once upon a time in a  land, a   grew.";
+        String template2 = "Once upon a time in a  land, a   grew.";
 
-String fullMadLibStory = template.substring(0, 22) + adjective3
-                + template.substring(22, 31) + noun3
-                + template.substring(30, 31) + adverb3
-                + template.substring(32);
+String fullMadLibStory = template2.substring(0, 22) + adjective3
+                + template2.substring(22, 31) + noun3
+                + template2.substring(30, 31) + adverb3
+                + template2.substring(32);
 
         System.out.println("\nCompleted Mad Lib:");
         System.out.println(fullMadLibStory);
