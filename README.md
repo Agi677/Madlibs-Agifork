@@ -4,17 +4,27 @@ Requirements:
 Revanth:
 - a class definition header that matches the file name
 - a main method for the program 
-- a variable containing the incomplete Mad Lib
+- a variable containing the first line of the incomplete Mad Lib
 - only String methods defined in the AP CSA Java Quick Reference(opens in a new tab)
 
 Abhi:
-- algorithm(s) that process user input
+- first algorithm that process user input
+- fist algorithm to parse for the parts of speech to replace
+- first algorithm to parse for sections of the Mad Lib to include
+- various prompts to keep the user on track
 
 Shivani:
-- algorithm(s) to parse for the parts of speech to replace
+- creates second line
+- second algorithm that process user input
+- second algorithm to parse for the parts of speech to replace
+- second algorithm to parse for sections of the Mad Lib to include
+- various prompts to keep the user on track
 
 Agilan:
-- algorithm(s) to parse for sections of the Mad Lib to include
+- creates third line
+- first algorithm that process user input
+- fist algorithm to parse for the parts of speech to replace
+- first algorithm to parse for sections of the Mad Lib to include
 - various prompts to keep the user on track
 - a final print statement to display the completed story
 
