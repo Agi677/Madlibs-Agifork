@@ -44,18 +44,21 @@ public class MadLibs {
 
         System.out.println("\nNew Madlib");
 
+        //Prompt the user for an ajdective, noun and an adverb for madlib
         String adjective3 = getWord(scanner, "adjective");
         String noun3 = getWord(scanner, "noun");
         String adverb3 = getWord(scanner, "adverb");
 
         // Template sentence 3
-        String template2 = "Once upon a time in a  land, a   grew.";
-
+        String template3 = "Once upon a time in a  land, a   grew.";
+        
+//Formatting for adding the user inputs in right places in madlib
 String fullMadLibStory = template2.substring(0, 22) + adjective3
-                + template2.substring(22, 31) + noun3
-                + template2.substring(30, 31) + adverb3
-                + template2.substring(32);
+                + template3.substring(22, 31) + noun3
+                + template3.substring(30, 31) + adverb3
+                + template3.substring(32);
 
+        // Print out completed Mad Lib with user's inputs
         System.out.println("\nCompleted Mad Lib:");
         System.out.println(fullMadLibStory);
 
