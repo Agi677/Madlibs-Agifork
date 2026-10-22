@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// Defines the public class madlibs 
 public class MadLibs {
 
     public static String getWord(Scanner scanner, String wordType) {
