@@ -23,20 +23,22 @@ public class MadLibs {
 
         System.out.println(madlibstory);
 
+        System.out.println("Madlib 2");
         // Second sentence of madlib story
         String madlibstory2 = "The <adjective> <noun> went to the mall for <pluralNoun>.";
-        // User is prompted to enter an adjective that will be stored under the adjective variable
-        System.out.print("Enter an adjective: ");
-        String adjective = scanner.nextLine();
-        // User is prompted to enter a noun that will be stored under the noun2 variable
-        System.out.print("Enter a noun: ");
-        String noun2 = scanner.nextLine();
-        // User is prompted to enter a plural noun that will be stored under the pluralNoun2 variable
-        System.out.print("Enter a plural noun: ");
-        String pluralNoun2 = scanner.nextLine();
+        // User is prompted to enter an adjective using the getWord function
+        String adjective2 = getWord(scanner, "adjective");
+        // User is prompted to enter a noun using the getWord function
+        String noun2 = getWord(scanner, "noun");
+        // User is prompted to enter a plural noun using the getWord function
+        String pluralNoun2 = getWord(scanner, "plural noun");
 
         // The entire story is put together using the substring method, the variables and the original madlibstory2
-        madlibstory2 = madlibstory2.substring(0, 4) + adjective + madlibstory2.substring(15, 16) + noun2 + madlibstory2.substring(22, 44) + pluralNoun2 + madlibstory2.substring(56);
+        madlibstory2 = madlibstory2.substring(0, 4) + adjective2
+                + madlibstory2.substring(15, 16) + noun2
+                + madlibstory2.substring(22, 44) + pluralNoun2
+                + madlibstory2.substring(56);
+
         // Line 2 of madlibs is printed out
         System.out.println(madlibstory2);
 
@@ -62,7 +64,6 @@ String fullMadLibStory = template2.substring(0, 22) + adjective3
     }
 }
         
-
 
 
 
