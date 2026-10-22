@@ -39,8 +39,26 @@ public class MadLibs {
         madlibstory2 = madlibstory2.substring(0, 4) + adjective + madlibstory2.substring(15, 16) + noun2 + madlibstory2.substring(22, 44) + pluralNoun2 + madlibstory2.substring(56);
         // Line 2 of madlibs is printed out
         System.out.println(madlibstory2);
-        
+
+        System.out.println("\nNew Madlib");
+
+        String adjective3 = getWord(scanner, "adjective");
+        String noun3 = getWord(scanner, "noun");
+        String adverb3 = getWord(scanner, "adverb");
+
+        // Template sentence 3
+        String template = "Once upon a time in a  land, a   grew.";
+
+String fullMadLibStory = template.substring(0, 22) + adjective3
+                + template.substring(22, 31) + noun3
+                + template.substring(30, 31) + adverb3
+                + template.substring(32);
+
+        System.out.println("\nCompleted Mad Lib:");
+        System.out.println(fullMadLibStory);
+
         scanner.close();
+        
     }
 }
         
