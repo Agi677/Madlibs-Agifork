@@ -9,21 +9,27 @@ public class MadLibs {
         return scanner.nextLine();
     }
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        //Sentence 1 of madlib story
-        String noun1 = getWord(scanner, "noun");
-        String pluralNoun1 = getWord(scanner, "plural noun");
-        String number1 = getWord(scanner, "number");
+public static void main(String[] args) {
+    // Set up the scanner to read user input from the keyboard.
+    // We'll use this same scanner throughout the whole program.
+    Scanner scanner = new Scanner(System.in);
 
-        String template = "I went to the animal ; the  and the  beasts were there.";
-        //Sentence assembled
-        String madlibstory = template.substring(0, 21) + noun1 
-                + template.substring(21, 27) + pluralNoun1 
-                + template.substring(27, 36) + number1 
-                + template.substring(36);
-        //Sentence printed out to the user
-        System.out.println(madlibstory);
+    // Ask the user for the first batch of words using our helper method.
+    // Each word gets saved into its own variable for later use in the story.
+    String noun1 = getWord(scanner, "noun");
+    String pluralNoun1 = getWord(scanner, "plural noun");
+    String number1 = getWord(scanner, "number");
+
+    // The base template string that we will slice up.
+    // We leave room here to slot in the user's answers.
+    String template = "I went to the animal ; the and the beasts were there.";
+
+    // Condenses the template and stitch it back together with the user's words.
+    // This builds the finished first sentence.
+    String madlibstory = template.substring(0, 21) + noun1
+            + template.substring(21, 28) + pluralNoun1
+            + template.substring(28, 37) + number1
+            + template.substring(37);
 
         System.out.println("Madlib 2");
         // Second sentence of madlib story
