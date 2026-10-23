@@ -16,20 +16,22 @@ public class Suresh_MadLibs {
 
         // Ask the user for the first batch of words using our helper method.
         // Each word gets saved into its own variable for later use in the story.
-        String noun1 = getWord(scanner, "noun");
+        String place1 = getWord(scanner, "place");
         String pluralNoun1 = getWord(scanner, "plural noun");
         String number1 = getWord(scanner, "number");
 
         // The base template string that we will slice up.
         // We leave room here to slot in the user's answers.
-        String template = "I went to the animal <noun>; the <pluralNoun> and the <number> beasts were there.";
+        String template = "I went to the animal <place>; the <pluralNoun> and the <number> beasts were there.";
 
         // Condenses the template and stitch it back together with the user's words.
         // This builds the finished first sentence.
-        String madlibstory = template.substring(0, 21) + noun1
-                + template.substring(27, 33) + pluralNoun1
-                + template.substring(47, 56) + number1
-                + template.substring(64);
+        String madlibstory = template.substring(0, 21) + place1
+                + template.substring(28, 34) + pluralNoun1
+                + template.substring(46, 55) + number1
+                + template.substring(63);
+                System.out.println(madlibstory);
+
 
         System.out.println("Madlib 2");
         // Second sentence of madlib story
@@ -70,7 +72,6 @@ public class Suresh_MadLibs {
         
     }
 }  
-
 
 
 
