@@ -31,3 +31,5 @@ Everyone keep track:
 - the use of camelCase when appropriate
 - comments describing the algorithms
 - a final print statement to display the completed story
+
+<img width="498" height="357" alt="image" src="https://github.com/user-attachments/assets/5eeec45d-d72c-464d-ac8f-03a18ef097a3" />
