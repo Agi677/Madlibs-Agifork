@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MadLibs {
+public class Suresh_MadLibs {
 
     public static String getWord(Scanner scanner, String wordType) {
         // Asks user for a type of word(noun, verb, etc.)
@@ -47,9 +47,6 @@ public static void main(String[] args) {
                 + madlibstory2.substring(22, 44) + pluralNoun2
                 + madlibstory2.substring(56);
 
-        // Line 2 of madlibs is printed out
-        System.out.println(madlibstory2);
-
         System.out.println("\nNew Madlib");
 
         String adjective3 = getWord(scanner, "adjective");
@@ -65,6 +62,8 @@ String fullMadLibStory = template2.substring(0, 22) + adjective3
                 + template2.substring(32);
 
         System.out.println("\nCompleted Mad Lib:");
+        System.out.println(madlibstory);
+        System.out.println(madlibstory2);
         System.out.println(fullMadLibStory);
 
         scanner.close();
