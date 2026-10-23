@@ -30,8 +30,6 @@ public class Suresh_MadLibs {
                 + template.substring(28, 34) + pluralNoun1
                 + template.substring(46, 55) + number1
                 + template.substring(63);
-                System.out.println(madlibstory);
-
 
         System.out.println("Madlib 2");
         // Second sentence of madlib story
