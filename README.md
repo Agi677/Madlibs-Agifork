@@ -1,6 +1,13 @@
 # Madlibs
 Requirements:
 
+Mehek:
+- team lead
+- managed overall assignment
+- checked all code
+- fixed any minor errors
+- made sure all members stayed on task
+
 Revanth:
 - a class definition header that matches the file name
 - a main method for the program 
