@@ -3,24 +3,26 @@ import java.util.Scanner;
 public class MadLibs {
 
     public static String getWord(Scanner scanner, String wordType) {
+        // Asks user for a type of word(noun, verb, etc.)
         System.out.print("Enter a " + wordType + ": ");
+        // Returns the user input
         return scanner.nextLine();
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        //Sentence 1 of madlib story
         String noun1 = getWord(scanner, "noun");
         String pluralNoun1 = getWord(scanner, "plural noun");
         String number1 = getWord(scanner, "number");
 
         String template = "I went to the animal ; the  and the  beasts were there.";
-
+        //Sentence assembled
         String madlibstory = template.substring(0, 21) + noun1 
                 + template.substring(21, 27) + pluralNoun1 
                 + template.substring(27, 36) + number1 
                 + template.substring(36);
-
+        //Sentence printed out to the user
         System.out.println(madlibstory);
 
         System.out.println("Madlib 2");
