@@ -55,12 +55,14 @@ public class Suresh_MadLibs {
 
         // Template sentence 3
         String template2 = "Once upon a time in a <adjective> land, a <noun> <adverb> grew.";
-
+        //Formatting for adding the user inputs in right places in madlib
         String fullMadLibStory = template2.substring(0, 22) + adjective3
+        // replaces user inputs into substring
                 + template2.substring(33, 42) + noun3
                 + template2.substring(48, 49) + adverb3
                 + template2.substring(57);
 
+        // Print out FULL madlib story with all user inputs
         System.out.println("\nCompleted Mad Lib:");
         System.out.println(madlibstory);
         System.out.println(madlibstory2);
