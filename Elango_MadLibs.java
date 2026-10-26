@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Suresh_MadLibs {
+public class Elango_MadLibs {
 
     public static String getWord(Scanner scanner, String wordType) {
         // Asks user for a type of word(noun, verb, etc.)
