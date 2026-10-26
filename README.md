@@ -39,6 +39,15 @@ Everyone keep track:
 - comments describing the algorithms
 - a final print statement to display the completed story
 
+**Milestone 1:** Project Setup & Class Structure
+- Created file `LastName_MadLibs.java` and initialized main method and variables.
+**Milestone 2:** Algorithm Implementation
+  Built string parsing and replacement algorithms using approved AP CSA String methods (`indexOf`, `substring`, `length`, etc.).
+**Milestone 3:** Input & Output Integration
+   - Added interactive `Scanner` prompts for user input and integrated story generation functions.
+**Milestone 4:** Testing & Code Review
+   - Conducted code review, verified camelCase naming conventions, and tested sample inputs.
+
 Our Output:
 
 <img width="498" height="357" alt="image" src="https://github.com/user-attachments/assets/5eeec45d-d72c-464d-ac8f-03a18ef097a3" />
